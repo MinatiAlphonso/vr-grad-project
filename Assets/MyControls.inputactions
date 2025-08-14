@@ -1,0 +1,516 @@
+{
+    "name": "MyControls",
+    "maps": [
+        {
+            "name": "Actions",
+            "id": "de458a84-cd47-4c35-b31f-8350b308b29e",
+            "actions": [
+                {
+                    "name": "MoveCamera",
+                    "type": "Button",
+                    "id": "e64b39ff-0faa-409e-882c-9d04ddff6751",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "GrabRight",
+                    "type": "Button",
+                    "id": "ef14baba-3712-4d3b-892f-03fc4b83dddb",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ReleaseRight",
+                    "type": "Button",
+                    "id": "6daf290b-6ccd-4ef4-9d71-946ee8aa2856",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "GrabLeft",
+                    "type": "Button",
+                    "id": "be0b4fb9-274c-48ec-a5c3-71aa665bd4b8",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ReleaseLeft",
+                    "type": "Button",
+                    "id": "13c75ea1-5ae3-4cd4-8eeb-0b9602df8cc3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MenuDisplay",
+                    "type": "Button",
+                    "id": "e3bc8f25-6d13-48c2-9b87-f652a9551007",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Teleport",
+                    "type": "Button",
+                    "id": "87aacb99-d590-4b98-bdf2-9ebf19ebed04",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SearchTeleport",
+                    "type": "Button",
+                    "id": "361b35e7-7a9f-428f-b50b-11cb780b57f3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "DirectionalMove",
+                    "type": "PassThrough",
+                    "id": "378090b7-b500-4d04-a541-9f45b960eab5",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DirectionalTurn",
+                    "type": "PassThrough",
+                    "id": "38471747-885e-46c8-87a3-1d78948a03f5",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Walk",
+                    "type": "Button",
+                    "id": "fd6d35bb-c9b5-4696-8ead-ccd156242dcc",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Strafe",
+                    "type": "Button",
+                    "id": "92e59f7b-44af-4f0d-861d-66589bd40864",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Turn",
+                    "type": "Button",
+                    "id": "e4c8e53e-a778-464a-937c-c40d39401748",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "One Modifier",
+                    "id": "f26fde38-504b-4523-92fc-e834dc59bd69",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveCamera",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "92485351-8f82-4797-b39f-d68512844777",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Desktop",
+                    "action": "MoveCamera",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "e4e0bb2b-324d-4410-b7a4-607afa118d0f",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Desktop",
+                    "action": "MoveCamera",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "78092a31-d498-45e2-98f7-68d708b40d3c",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Desktop",
+                    "action": "Teleport",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "df1e16be-573a-4ac6-91ef-fcc5162e575b",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";VR",
+                    "action": "Teleport",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fdfe0e5e-3f7c-4495-9bf8-2b05fc6b866d",
+                    "path": "<Keyboard>/g",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Desktop",
+                    "action": "GrabRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5ac3abce-c942-4ff1-925d-04383d601af7",
+                    "path": "<XRController>{RightHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";VR",
+                    "action": "GrabRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "96b1c276-2ec7-4b6e-879f-cec04d380f89",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Desktop",
+                    "action": "GrabLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f2083b24-889b-49a0-9596-8d25eb924209",
+                    "path": "<XRController>{LeftHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";VR",
+                    "action": "GrabLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a5cd1486-f85e-4d91-a983-606fbee70e89",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Desktop",
+                    "action": "ReleaseLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "27a2f517-8338-4df8-ac4b-6f2a16194726",
+                    "path": "<XRController>{LeftHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";VR",
+                    "action": "ReleaseLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "17a8e9cc-0d02-445d-b061-edb6b2ff722e",
+                    "path": "<Keyboard>/g",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Desktop",
+                    "action": "ReleaseRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6d8f484a-cd63-4218-b0e8-53e023fa3a23",
+                    "path": "<XRController>{RightHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";VR",
+                    "action": "ReleaseRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "One Modifier",
+                    "id": "7eef114a-d5df-4bf5-9c5c-423054d73b16",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MenuDisplay",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "0f535769-d5df-477b-bea6-10093f0780ca",
+                    "path": "<XRController>{LeftHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";VR",
+                    "action": "MenuDisplay",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "4e59d9b1-49f9-409e-a047-f38a72c397e1",
+                    "path": "<XRController>{RightHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";VR",
+                    "action": "MenuDisplay",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier",
+                    "id": "8a311ada-6698-45eb-99d2-dca1cc4fa69d",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MenuDisplay",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "c4063056-9972-4e31-9ca2-e04a69a7dc0d",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Desktop",
+                    "action": "MenuDisplay",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "af60db3a-d0db-40af-a9ba-93e28e123d0b",
+                    "path": "<Keyboard>/g",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Desktop",
+                    "action": "MenuDisplay",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "7342ff74-b65a-4194-883b-e9b3d4cc7f68",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Desktop",
+                    "action": "SearchTeleport",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e7c3feb4-d4da-4b06-997f-244857bb3d8d",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";VR",
+                    "action": "SearchTeleport",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d2c767a1-3570-4bff-9a16-43a49bbf1333",
+                    "path": "<XRController>{LeftHand}/{primary2DAxis}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";VR",
+                    "action": "DirectionalMove",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "eadb566f-8f48-4cda-ab22-595340e4b4de",
+                    "path": "<XRController>{RightHand}/{primary2DAxis}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";VR",
+                    "action": "DirectionalTurn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "7a9e38f5-75ba-483b-87db-2a5507971879",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Walk",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "d56ad5ba-4a93-43c2-b3e4-c74943cfeb47",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Desktop",
+                    "action": "Walk",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "516f27f4-93cf-4674-9eb0-24bfe8db74df",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Desktop",
+                    "action": "Walk",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "aa130fb0-1d2f-4139-bf12-04da37def117",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Strafe",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "df1b83d7-8fb4-48bd-84f0-0ab6ee1c457f",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Desktop",
+                    "action": "Strafe",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "dd1feffb-652e-4694-9e3a-c8189cebd62a",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Desktop",
+                    "action": "Strafe",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "707e021c-1241-4484-bab3-cb6007ebe175",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Turn",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "413192cc-d8e0-4f7f-963f-ace823d42951",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Desktop",
+                    "action": "Turn",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "ea3610f4-d126-4f2c-9f80-8c4d4400be1d",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Desktop",
+                    "action": "Turn",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Desktop",
+            "bindingGroup": "Desktop",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "VR",
+            "bindingGroup": "VR",
+            "devices": [
+                {
+                    "devicePath": "<XRController>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<XRController>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

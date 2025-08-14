@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GrabEffectBuilder_default
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: b1b0a9f02ad58cb43b82681d8709fc86, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: handEffects.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'handEffects.Array.data[0]'
+    value: 2033507778269282304
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'handEffects.Array.data[1]'
+    value: 2033507778269282305
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'handEffects.Array.data[2]'
+    value: 2033507778269282306
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'managedReferences[2033507778269282304]'
+    value: Assembly-CSharp GrabEffectHover
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[2033507778269282304].colorLeft.r
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[2033507778269282304].colorLeft.g
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[2033507778269282304].colorLeft.b
+    value: 0.75
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[2033507778269282304].colorLeft.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[2033507778269282304].colorRight.r
+    value: 0.75
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[2033507778269282304].colorRight.g
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[2033507778269282304].colorRight.b
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[2033507778269282304].colorRight.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'managedReferences[2033507778269282305]'
+    value: Assembly-CSharp GrabEffectHold
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[2033507778269282305].<ApplyPhysicsOnRelease>k__BackingField
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[2033507778269282305].rotationOffset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[2033507778269282305].rotationOffset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[2033507778269282305].rotationOffset.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[2033507778269282305].positionOffset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[2033507778269282305].positionOffset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[2033507778269282305].positionOffset.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'managedReferences[2033507778269282306]'
+    value: Assembly-CSharp GrabEffectHaptics
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []
+  m_CoupledType:
+    m_NativeTypeID: 0
+    m_ManagedTypePPtr: {fileID: 0}
+    m_ManagedTypeFallback: 
+  m_CoupledProperties: []
