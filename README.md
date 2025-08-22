@@ -16,3 +16,5 @@ A key highlight of this project is the **GrabEffectBuilder**, an extendable VR t
 - **Gift Box Interaction**: Interactable lid using **GrabEffectBuilder** for customizable grab/hover effects and physics-based bounce.  
 - **Maze Navigation**: Runtime-generated maze with a guiding AI agent.  
 - **Immersive World**: Day/night cycle, ambient wind sounds, lit lampposts, and custom skybox.  
+
+**Note:** All C# scripts are located under Assets/Scripts
