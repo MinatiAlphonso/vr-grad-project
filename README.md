@@ -9,6 +9,8 @@ This is a Virtual Reality (VR) treasure-hunting application developed for the **
 
 A key highlight of this project is the **GrabEffectBuilder**, an extendable VR tool that allows developers to easily add and configure interaction effects (e.g., haptics, hover, highlight, bounce, etc.) on 3D objects through Unity’s Inspector.
 
+**Note:** All C# scripts are located under Assets/Scripts
+
 ## Features
 - **Teleportation System**: Parabolic arc teleport restricted to tagged paths.  
 - **Inventory Menu**: Two-handed interaction (both grip buttons) opens a floating, gaze-following inventory with collectible counts and icons.  
@@ -16,5 +18,3 @@ A key highlight of this project is the **GrabEffectBuilder**, an extendable VR t
 - **Gift Box Interaction**: Interactable lid using **GrabEffectBuilder** for customizable grab/hover effects and physics-based bounce.  
 - **Maze Navigation**: Runtime-generated maze with a guiding AI agent.  
 - **Immersive World**: Day/night cycle, ambient wind sounds, lit lampposts, and custom skybox.  
-
-**Note:** All C# scripts are located under Assets/Scripts
